@@ -1,0 +1,44 @@
+1
+Introduction to Algorithms
+Thomas H. Cormen
+1
+2
+Clean Code: A Handbook of Agile Software Craftsmanship
+Robert C. Martin
+1
+3
+The Pragmatic Programmer
+Andrew Hunt
+1
+4
+Design Patterns: Elements of Reusable Object-Oriented Software
+Erich Gamma
+1
+5
+Artificial Intelligence: A Modern Approach
+Stuart Russell
+1
+6
+Computer Networking: A Top-Down Approach
+James F. Kurose
+1
+7
+Database System Concepts
+Abraham Silberschatz
+1
+8
+Structure and Interpretation of Computer Programs
+Harold Abelson
+1
+9
+Operating System Concepts
+Abraham Silberschatz
+1
+10
+You Don't Know JS: Scope & Closures
+Kyle Simpson
+1
+11
+Python Crash Course
+Eric Matthes
+1
