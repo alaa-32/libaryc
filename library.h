@@ -5,26 +5,26 @@
 #define MAX_AUTHOR 100
 #define MAX_NAME 100
 
-// Book structure
+// Book 
 typedef struct {
-    int id;
+    int id; //unique number for each book
     char title[MAX_TITLE];
     char author[MAX_AUTHOR];
     int available; // 1 = available, 0 = unavailable
 } Book;
 
-// User structure
+// User 
 typedef struct {
     int userId;
     char name[MAX_NAME];
-    int requestedBookId;
+    int requestedBookId; //The ID of the book they want to borro
 } User;
 
-// Stack operations
-typedef struct SNode {
+// Stack operations  returned books
+typedef struct SNode {    //one book in the "recently returned
     Book Data;
     struct SNode* Next;
-} SNode, *Stack;
+} SNode, *Stack;  //pointer to the top of the stack.
 
 void InitStack(Stack* P);
 void Push(Stack* S, Book x);
@@ -32,7 +32,7 @@ void Pop(Stack* S, Book* x);
 int isSEmpty(Stack S);
 
 // Queue operations
-typedef struct QNode {
+typedef struct QNode {   //one user in the queue.
     User Data;
     struct QNode* Next;
 } QNode, *EQueue;
